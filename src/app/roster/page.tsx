@@ -15,7 +15,7 @@ export default function RosterPage (){
                 <button className="h-[2.5rem] w-[7.3rem] rounded-[2.5rem] text-base flex justify-center items-center font-bold duration-200 hover:opacity-80 text-white bg-gray-300">Depth Chart</button>
             </div>
             <div className="">
-                <div className="flex text-base font-bold mt-16 text-vred">
+                <div className="flex text-base font-bold mt-16 text-vred items-center">
                     <div className="flex flex-[2] font-bold bg-gray-300 h-[2.2rem] pl-4 mr-[2px] rounded-l-2xl">Player</div>
                     <div className="flex flex-[2] font-bold bg-gray-300 h-[2.2rem] pl-4 mr-[2px] rounded-r-2xl">Position</div>
                 </div>

@@ -31,7 +31,7 @@ export default function AboutPage (){
                     
                     <IconContext.Provider value={{ size: "2rem", color: "black"}}>
                     <div className="flex flex-col justify-center items-center gap-2">
-                        <h3>
+                        <h3 className="text-center">
                             Follow Our Facebook
                         </h3>
                         <a href="https://www.facebook.com/profile.php?id=100054646651802">
@@ -40,7 +40,7 @@ export default function AboutPage (){
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2">
-                        <h3>
+                        <h3 className="text-center">
                             Follow Our TikTok
                         </h3>
                         <a href="https://www.tiktok.com/@snake.pit6?fbclid=IwAR2KmjZrlGE-OHRFH5ONrgFjVY9WWerIhCetzSD_aQhwpwFJq4nYf5eBkbM">
@@ -49,7 +49,7 @@ export default function AboutPage (){
                     </div>
 
                     <div className="flex flex-col justify-center items-center gap-2">
-                        <h3>
+                        <h3 className="text-center">
                             Subscribe to Our Youtube
                         </h3>
                         <a href="https://www.youtube.com/@nccarolinavenomadministrat1363">
