@@ -1,9 +1,11 @@
+import { useState } from "react";
 import Contents from "../componets/contents";
 import Footer from "../componets/footer";
 import Header from "../componets/header";
 
 
 export default function StatsPage (){
+    // [editMode, setEditMode] = useState(false)
     return(
         <>
         <Header />
@@ -26,6 +28,13 @@ export default function StatsPage (){
                 <div className="pl-4">
                     Player Stats Unavailable
                 </div>
+            </div>
+            <div className="flex gap-4 mt-4">
+                {/* {editMode
+                ? <button className="bg-gray-200 border border-black">save</button> <button className="bg-gray-200 border border-black">cancel</button>
+                : <button className="bg-gray-200 border border-black">edit</button>
+                } */}
+                {/* <button className="bg-gray-200 border border-black">canel</button> */}
             </div>
             <h1 className="text-2xl">Rushing</h1>
             <div className="w-full border border-gray-500">
