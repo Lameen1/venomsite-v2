@@ -11,12 +11,12 @@ export default function HomePage (){
     <main>
       <div className='w-full h-56 overflow-hidden flex relative'>
         <div className="flex flex-1 bg-blend-darken bg-black">
-          <img src="cover-photo.jpg" className="w-full opacity-60 object-none object-[40%_27%]" />
-          <img className="hidden" src="cover-3.jpg" alt="" />
+          <img src="cover-photo.jpg" className="flex-1 w-full opacity-60 object-none object-[40%_27%]" />
+          <img className="2xl:flex 2xl:flex-1 2xl:object-cover hidden" src="cover-3.jpg" alt="" />
         </div>
         <div className="flex flex-1 bg-blend-darken bg-black">
-          <img src="huddle-pic.jpg" className="w-full opacity-60 object-none object-[50%_55%]" />
-          <img className="hidden" src="cover-4.jpg" alt="" />
+          <img src="huddle-pic.jpg" className="flex-1 w-full opacity-60 object-none object-[50%_55%]" />
+          <img className="2xl:flex 2xl:flex-1 2xl:object-cover hidden " src="cover-4.jpg" alt="" />
         </div>
       </div>
       <Header />
